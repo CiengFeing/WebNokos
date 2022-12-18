@@ -1,0 +1,71 @@
+#!/usr/bin/bash
+
+echo " Welcome To CiengFeing Scrit "
+
+sleep 3
+
+echo " Wait One Moment "
+
+sleep 2
+
+echo " Please Fill In The Form Below "
+
+sleep 2
+
+read -p " How Old Are You " year
+
+sleep 2
+
+echo " Okey " $year
+
+sleep 3
+
+read -p " What Your Name : " name
+
+echo " Welcome Mr,Mrs " $name
+
+sleep 5
+echo
+# copyrihgt by panglima jateng
+
+# variabel
+e=echo
+s=sleep
+v=https
+k=kodeotp.com
+
+# pembersih teks
+c=clear
+$c # pembersih
+
+# tampilan
+$s 2
+figlet Link-KodeOtp
+$s 1
+$e "===================================================="
+$e " {•} Author : CiengFeing"
+$e " {•} NoWa : +1 (438) 428-6689"
+$e " {•} TT : Mr.Cyberz"
+$e "=======================>|<=========================="
+$s 1
+
+# daftar menu
+echo "               Welcome Termux Player"
+echo "=======================>|<========================"
+echo "{1} link kodeotp "
+echo "{×} keluar"
+echo "=======================>|<=========================="
+read -p "{•} pilih: " option;
+# data base
+if [[ $option == "1" ]]
+then
+echo
+echo " sabar ya bro............."
+sleep 5
+$e " Please Copy "
+echo "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"
+$e $v://$k
+echo "÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷÷"
+else
+echo " babay.......... "
+fi
